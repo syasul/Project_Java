@@ -48,34 +48,34 @@ public static void main(String[] args) {
                 break;
         }
         
-        if (angka >= 85) {
+        if (angka >= 85 && angka <= 100 ) {
             grade = "A";
             System.out.println("Grade Mahasiswa ini "+grade);
-        } else if (angka >= 80) {
+        } else if (angka >= 80 && angka <= 84) {
             grade = "A-";
             System.out.println("Grade Mahasiswa ini "+grade);
-        }else if (angka >= 75) {
+        }else if (angka >= 75 && angka <= 79) {
             grade = "B+";
             System.out.println("Grade Mahasiswa ini "+grade);
-        }else if (angka >= 70) {
+        }else if (angka >= 70 && angka <= 74) {
             grade = "B";
             System.out.println("Grade Mahasiswa ini "+grade);
-        }else if (angka >= 65) {
+        }else if (angka >= 65 && angka <= 69) {
             grade = "B-";
             System.out.println("Grade Mahasiswa ini "+grade);
-        }else if (angka >= 60) {
+        }else if (angka >= 60 && angka <= 64) {
             grade = "C+";
             System.out.println("Grade Mahasiswa ini "+grade);
-        }else if (angka >= 55) {
+        }else if (angka >= 55 && angka <= 59) {
             grade = "C";
             System.out.println("Grade Mahasiswa ini "+grade);
-        }else if (angka >= 50) {
+        }else if (angka >= 50 && angka <= 54) {
             grade = "C-";
             System.out.println("Grade Mahasiswa ini "+grade);
-        }else if (angka >= 45) {
+        }else if (angka >= 45 && angka <= 49) {
             grade = "D";
             System.out.println("Grade Mahasiswa ini "+grade);
-        }else if (angka >= 0) {
+        }else if (angka >= 0 && angka <= 44) {
             grade = "E";
             System.out.println("Grade Mahasiswa ini "+grade);
         } else {
