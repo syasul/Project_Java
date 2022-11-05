@@ -19,5 +19,5 @@ public class MinElementArray {
             }
         }
         System.out.println("Bilangan terkecil dari array adalah : " + min);
-    }
+    }   
 }

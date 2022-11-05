@@ -31,5 +31,5 @@ public class Modus {
         int n = 10;
         int arr[] = {1, 6, 7, 2, 7, 4, 6, 7, 9, 10};
         System.out.println("Modusnya adalah : " + modus(arr, n));
-    }
+    } 
 }
